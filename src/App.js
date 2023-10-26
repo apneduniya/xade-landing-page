@@ -14,6 +14,7 @@ import CardSection from "./components/CardSection";
 import CoinSection from "./components/CoinsSection";
 import Stats from "./components/Stats";
 import Security from "./components/Security";
+import TradeSection from "./components/TradeSection";
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
 
@@ -33,10 +34,11 @@ function App() {
     <div>
       <Header />
       <TopSection />
+      <TradeSection />
       <div
         className="header3"
         id="apph3"
-        style={{ marginTop: "5%", fontFamily: "Benzin-Medium", color: "#ddd" }}
+        style={{ marginTop: "5%", fontFamily: "Benzin-Medium", color: "#ddd", textAlign: "center" }}
       >
         <span>RESHAPING FINANCE </span>
       </div>

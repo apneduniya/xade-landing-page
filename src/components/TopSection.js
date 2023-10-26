@@ -1,8 +1,12 @@
 import React from "react";
 import "../styles/style.css";
+import Spline from '@splinetool/react-spline';
 // import video from "../assets/Video.mp4";
 
 export default function TopSection() {
+
+  
+
   return (
     <>
       <div
@@ -15,13 +19,32 @@ export default function TopSection() {
           alignItems: "center",
           justifyContent: "center",
           flexDirection: "column",
+          position: "relative",
+          zIndex: "1",
         }}
       >
-        <div className="firstSectionimg1"></div>
-        <div className="firstSectionimg2"></div>
+        {/* <div className="firstSectionimg1"></div>
+        <div className="firstSectionimg2"></div> */}
         {/* <video autoPlay={true} muted={true} loop={true}> */}
         {/* <source src={video} type="video/mp4" /> */}
         {/* </video> */}
+        <div
+          style={{
+            position: "absolute",
+            top: "0",
+            left: "0",
+            width: "100%",
+            height: "100vh",
+            zIndex: "-1",
+            // backgroundColor: "#111111",
+            opacity: "0.5",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <Spline id="bg-animation" scene="https://prod.spline.design/BCL9IZtcUD4YJC5n/scene.splinecode" />
+        </div>
         <div className="topContainerText">
           <div role="heading" aria-level="1" className="h1Container">
             <h1 className="headingTop">

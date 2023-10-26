@@ -51,16 +51,16 @@ const App = () => {
             <div class="right-half">
               <img
                 className="credimg"
-                src={process.env.PUBLIC_URL + "/Media/Paymentimage1.png"}
+                src={process.env.PUBLIC_URL + "/Media/newhomeimage.png"}
                 alt="payment image"
               ></img>
             </div>
           </section>
-          <section class="container" id="container2">
+          <section class="container" id="container4">
             <div class="left-half">
               <img
                 className="credimg"
-                src="/Media/savingsimage.png"
+                src="/Media/newinvestmentsimage.png"
                 alt="image"
               ></img>
             </div>
@@ -71,10 +71,10 @@ const App = () => {
                     fontFamily: "Benzin-Medium",
                     fontSize: "0.6rem",
                     letterSpacing: "10px",
-                    color: "#A15EFF",
+                    color: "rgb(232, 109, 111)",
                   }}
                 >
-                  <span className="gradient2"> HIGH YIELD SAVINGS </span>{" "}
+                  <span className="gradient1" >PRO TRADING </span>
                 </div>
                 <div
                   style={{
@@ -85,21 +85,23 @@ const App = () => {
                   }}
                 >
                   <h3 style={{ fontSize: "32px", lineHeight: "1.2" }}>
-                    BEAT INFLATION WITH A STABLE SAVINGS ACCOUNT
+                    TRADE ANYTHING WITH 10X LEVERAGE
                   </h3>
                 </div>
                 <div style={{ fontSize: "1rem", fontFamily: "Regular" }}>
                   <span>
-                    Get a savings account created specifically to beat inflation
-                    by financing real world loans powered by our innovative
-                    savings protocol SabeX.
+                    {" "}
+                    Go Long or Short with upto 10x leverage on stocks, crypto, forex
+                    and more powered by DeriveX with almost guranteed liquidity and
+                    improved risk engines.{" "}
                   </span>
                 </div>
+                <br></br>
               </div>
             </div>
           </section>
         </>
-        <section class="container">
+        {/* <section class="container">
           <div class="left-half" style={{}}>
             <div className="line2" style={{}}>
               <div
@@ -141,52 +143,8 @@ const App = () => {
               alt="image"
             ></img>
           </div>
-        </section>
+        </section> */}
       </>
-      <section class="container" id="container4">
-        <div class="left-half">
-          <img
-            className="credimg"
-            src="/Media/investments.png"
-            alt="image"
-          ></img>
-        </div>
-        <div class="right-half">
-          <div className="line2" style={{ textAlign: "left" }}>
-            <div
-              style={{
-                fontFamily: "Benzin-Medium",
-                fontSize: "0.6rem",
-                letterSpacing: "10px",
-                color: "rgb(232, 109, 111)",
-              }}
-            >
-              <span>INSTANT LOANS </span>
-            </div>
-            <div
-              style={{
-                fontSize: "2rem",
-                fontWeight: 500,
-                lineHeight: 1.2,
-                fontFamily: "Benzin-Bold",
-              }}
-            >
-              <h3 style={{ fontSize: "32px", lineHeight: "1.2" }}>
-                TRADE ANYTHING WITH 10X LEVERAGE
-              </h3>
-            </div>
-            <div style={{ fontSize: "1rem", fontFamily: "Regular" }}>
-              <span>
-                {" "}
-                Go Long or Short with upto 10x leverage on stocks, crypto, forex
-                and more powered by DeriveX with almost guranteed liquidity and
-                improved risk engines.{" "}
-              </span>
-            </div>
-            <br></br>
-          </div>
-        </div>
-      </section>
       <section class="container">
         <div class="left-half" style={{}}>
           <div className="line2" style={{}}>
@@ -198,7 +156,7 @@ const App = () => {
                 color: "#FFCE40",
               }}
             >
-              <span className="gradient5">SPEND SEAMLESSLY </span>
+              <span className="gradient1">SPEND SEAMLESSLY </span>
             </div>
             <div
               style={{
@@ -224,9 +182,51 @@ const App = () => {
         <div class="right-half">
           <img
             className="credimg"
-            src="/Media/newsection.png"
+            src="/Media/newcardimage.png"
             alt="image"
           ></img>
+        </div>
+      </section>
+      <section class="container" id="container2">
+        <div class="left-half">
+          <img
+            className="credimg"
+            src="/Media/newsavingsimage.png"
+            alt="image"
+          ></img>
+        </div>
+        <div class="right-half">
+          <div className="line2" style={{ textAlign: "left" }}>
+            <div
+              style={{
+                fontFamily: "Benzin-Medium",
+                fontSize: "0.6rem",
+                letterSpacing: "10px",
+                color: "#A15EFF",
+              }}
+            >
+              <span className="gradient1"> HIGH YIELD SAVINGS </span>{" "}
+            </div>
+            <div
+              style={{
+                fontSize: "2rem",
+                fontWeight: 500,
+                lineHeight: 1.2,
+                fontFamily: "Benzin-Bold",
+              }}
+            >
+              <h3 style={{ fontSize: "32px", lineHeight: "1.2" }}>
+                BEAT INFLATION WITH A STABLE SAVINGS ACCOUNT
+              </h3>
+            </div>
+            <div style={{ fontSize: "1rem", fontFamily: "Regular" }}>
+              <span>
+                Get a savings account created specifically to beat inflation
+                by financing real world loans powered by our innovative
+                savings protocol SabeX.
+              </span>
+            </div>
+          </div>
         </div>
       </section>
 
