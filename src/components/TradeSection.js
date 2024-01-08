@@ -77,7 +77,7 @@ const TradeSection = () => {
                                 className="headingTop"
                                 style={{
                                     // textAlign: "center",
-                                    fontSize: "3.5rem",
+                                    fontSize: "5rem",
                                     fontFamily: "Montreal",
                                     fontWeight: "500",
                                     textAlign: "left",
@@ -115,7 +115,7 @@ const TradeSection = () => {
                         <span
                             className="subTextH1"
                             style={{
-                                fontSize: "1.2rem",
+                                fontSize: "1.25rem",
                                 fontFamily: "Montreal",
                                 fontWeight: "normal",
                                 textAlign: "left",

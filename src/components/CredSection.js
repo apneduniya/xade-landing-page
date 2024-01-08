@@ -12,6 +12,48 @@ const App = () => {
     <>
       <>
         <>
+          <section class="container" id="container4">
+            <div class="left-half">
+              <img
+                className="credimg"
+                src="/Media/new_onboarding_page.png"
+                alt="image"
+              ></img>
+            </div>
+            <div class="right-half" style={{ display: "flex", alignItems: "center" }}>
+              <div className="line2" style={{ textAlign: "left" }}>
+                <div
+                  style={{
+                    fontFamily: "Benzin-Medium",
+                    fontSize: "0.6rem",
+                    letterSpacing: "10px",
+                    color: "rgb(232, 109, 111)",
+                  }}
+                >
+                  <span className="gradient1" >SEAMLESS ONBOARDING </span>
+                </div>
+                <div
+                  style={{
+                    fontSize: "2rem",
+                    fontWeight: 500,
+                    lineHeight: 1.2,
+                    fontFamily: "Benzin-Bold",
+                  }}
+                >
+                  <h3 style={{ fontSize: "32px", lineHeight: "1.2" }}>
+                    CREATE YOUR NON CUSTODIAL WALLET INSTANTLY
+                  </h3>
+                </div>
+                <div style={{ fontSize: "1rem", fontFamily: "Regular" }}>
+                  <span>
+                    {" "}
+                    Create your secured non custodial wallet or connect your existing one and get started by depositing with over  200+ payment methods supported across 100+ counties instantly.{" "}
+                  </span>
+                </div>
+                <br></br>
+              </div>
+            </div>
+          </section>
           <section class="container">
             <div class="left-half" style={{}}>
               <div className="line2">
