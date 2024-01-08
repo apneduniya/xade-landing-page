@@ -26,11 +26,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* height: 100vh; */
 }
 
 #bg-animation canvas {
   position: relative;
-  z-index: -1;
+  /* z-index: -1; */
   height: 100% !important;
   width: auto !important;
   /* width: 100% !important; */

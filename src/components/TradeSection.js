@@ -11,7 +11,7 @@ const TradeSection = () => {
                 style={{
                     // marginTop: "15vh",
                     // marginBottom: "10vh",
-                    // position: 'relative',
+                    position: 'relative',
                     padding: "0 5rem",
                     width: "100%",
                     height: "100vh",
@@ -19,12 +19,12 @@ const TradeSection = () => {
                     alignItems: "center",
                     justifyContent: "space-between",
                     flexDirection: "row",
-                    // zIndex: "1",
+                    zIndex: "1",
                 }}
             >
-                {/* <img 
-                    src={background} 
-                    alt="background" 
+                <img
+                    src={"https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSjJ9li82RbCAK-i2NPHiLLeU17G4aSkXZs3huMLFKlbvKYtDAOV-Lcuht8RFANEC8yt4vMjUHKasIrDitU92lY9CYL=w1920-h963"}
+                    alt="background"
                     style={{
                         position: "absolute",
                         top: "0",
@@ -37,7 +37,7 @@ const TradeSection = () => {
                         alignItems: "center",
                         justifyContent: "center",
                     }}
-                /> */}
+                />
                 {/* <video
                     autoPlay={true}
                     muted={true}
@@ -62,7 +62,8 @@ const TradeSection = () => {
                 </video> */}
                 <div
                     style={{
-
+                        position: "relative",
+                        zIndex: "1",
                     }}
                 >
                     <div
@@ -82,7 +83,7 @@ const TradeSection = () => {
                                     textAlign: "left",
                                 }}
                             >
-                                Enjoy the best
+                                The
                                 <span
                                     style={{
                                         fontFamily: "PPEditorialNew-Italic",
@@ -90,39 +91,42 @@ const TradeSection = () => {
                                         fontWeight: "lighter",
                                         marginLeft: "0.5rem",
                                         marginRight: "1rem",
+                                        background: "linear-gradient(102deg, #EDB9FF 10.39 %, #9DC4FF 72 %)",
+                                        backgroundClip: "text",
                                     }}
                                 >
-                                    {" "}
-                                    trading
-                                </span>
-                                <br />experience ever
-                            </h1>
-                        </div>
+                                {" "}
+                                ultimate
+                            </span>
+                            <br />trading experience
+                            <br />powered by DeFi.
+                        </h1>
+                    </div>
 
-                        <div
+                    <div
+                        style={{
+                            color: "#fff",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                        }}
+                    >
+                        <span
+                            className="subTextH1"
                             style={{
-                                color: "#fff",
-                                display: "flex",
-                                alignItems: "center",
-                                justifyContent: "center",
+                                fontSize: "1.2rem",
+                                fontFamily: "Montreal",
+                                fontWeight: "normal",
+                                textAlign: "left",
                             }}
                         >
-                            <span
-                                className="subTextH1"
-                                style={{
-                                    fontSize: "1.2rem",
-                                    fontFamily: "Montreal",
-                                    fontWeight: "normal",
-                                    textAlign: "left",
-                                }}
-                            >
-                                Trade anything in the world with spot and margin trading with <br />
-                                deep liquidity, advanced analytics, no-code algo trading and much more
-                            </span>
-                        </div>
-                        <br />
+                            Trade anything in the world with spot and margin trading with <br />
+                            deep liquidity, advanced analytics, no-code algo trading and much more
+                        </span>
                     </div>
-                    <div
+                    <br />
+                </div>
+                {/* <div
                         className="GetStartedDiv"
                         style={{
                             display: "flex",
@@ -160,26 +164,26 @@ const TradeSection = () => {
                                 }}
                             />
                         </button>
-                    </div>
-                </div>
-                <div
-                    style={{
-                        // position: "absolute",
-                        // top: "0",
-                        // left: "0",
-                        width: "40%",
-                        height: "80%",
-                        // zIndex: "-1",
-                        // backgroundColor: "#111111",
-                        // opacity: "0.5",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                    }}
-                >
-                    <Spline id="bg-animation" scene="https://prod.spline.design/aAFMY0mBK6-W4dg6/scene.splinecode" />
-                </div>
+                    </div> */}
             </div>
+            <div
+                style={{
+                    // position: "absolute",
+                    // top: "0",
+                    // left: "0",
+                    width: "40%",
+                    height: "100%",
+                    // zIndex: "-1",
+                    // backgroundColor: "#111111",
+                    // opacity: "0.5",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                }}
+            >
+                <Spline id="bg-animation" scene="https://prod.spline.design/aAFMY0mBK6-W4dg6/scene.splinecode" />
+            </div>
+        </div >
             <br />
         </>
     )
