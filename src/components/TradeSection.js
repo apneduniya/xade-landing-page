@@ -1,5 +1,5 @@
 import arrowIcon from "../assets/arrow-icon.png";
-import video from "../assets/trade.mov";
+import video from "../assets/trade.mp4";
 
 
 const TradeSection = () => {
@@ -8,14 +8,16 @@ const TradeSection = () => {
             <div
                 className="topContainer"
                 style={{
-                    marginTop: "15vh",
-                    marginBottom: "10vh",
+                    // marginTop: "15vh",
+                    // marginBottom: "10vh",
+                    position: 'relative',
                     width: "100%",
-                    // height: "100vh",
+                    height: "100vh",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     flexDirection: "column",
+                    zIndex: "1",
                 }}
             >
                 {/* <img 
@@ -34,6 +36,28 @@ const TradeSection = () => {
                         justifyContent: "center",
                     }}
                 /> */}
+                <video
+                    autoPlay={true}
+                    muted={true}
+                    loop={true}
+                    style={{
+                        // width: "100%",
+                        // height: "100vh",
+                        // position: "relative",
+                        position: "absolute",
+                        top: "0",
+                        left: "0",
+                        width: "100%",
+                        height: "100vh",
+                        opacity: "0.5",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        zIndex: "-1",
+                    }}
+                >
+                    <source src={video} type="video/mp4" />
+                </video>
                 <div
                     className="topContainerText"
                     style={{
@@ -122,18 +146,6 @@ const TradeSection = () => {
                     </button>
                 </div>
             </div>
-            <video 
-                autoPlay={true} 
-                muted={true} 
-                loop={true}
-                style={{
-                    // width: "100%",
-                    // height: "100vh",
-                    position: "relative",
-                }}
-            >
-                <source src={video} type="video/mp4" />
-            </video>
             <br />
         </>
     )

@@ -20,7 +20,8 @@ const App = () => {
     <div
       className="lol nftParent"
       style={{
-        backgroundColor: "#0F0F10",
+        // backgroundColor: "#0F0F10",
+        backgroundColor: "#000000",
         minHeight: "62rem",
       }}
     >

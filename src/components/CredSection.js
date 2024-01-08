@@ -233,7 +233,7 @@ const App = () => {
       <br />
       <br />
 
-      <div className="Partnersdiv" style={{ backgroundColor: "black" }}>
+      {/* <div className="Partnersdiv" style={{ backgroundColor: "black" }}>
         <div
           className="header3"
           id="he3"
@@ -482,7 +482,7 @@ const App = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

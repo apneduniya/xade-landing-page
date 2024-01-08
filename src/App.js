@@ -33,7 +33,7 @@ function App() {
   return (
     <div>
       <Header />
-      <TopSection />
+      {/* <TopSection /> */}
       <TradeSection />
       <div
         className="header3"
@@ -67,10 +67,10 @@ function App() {
       {/* <CardSection></CardSection> */}
 
       <NFT />
-      <BetterSection />
-      <Stats />
+      {/* <BetterSection /> */}
+      {/* <Stats /> */}
 
-      <Security />
+      {/* <Security /> */}
       <FAQ />
 
       {/* <BottomSection /> */}
