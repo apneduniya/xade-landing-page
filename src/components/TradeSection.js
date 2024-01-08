@@ -90,9 +90,9 @@ const TradeSection = () => {
                                         // fontStyle: "italic",
                                         fontWeight: "lighter",
                                         marginLeft: "0.5rem",
+                                        color: "linear-gradient(102deg, #EDB9FF 10.39 %, #9DC4FF 72 %)",
                                         marginRight: "1rem",
-                                        background: "linear-gradient(102deg, #EDB9FF 10.39 %, #9DC4FF 72 %)",
-                                        backgroundClip: "text",
+                                        // backgroundClip: "text",
                                     }}
                                 >
                                 {" "}
@@ -171,7 +171,7 @@ const TradeSection = () => {
                     // position: "absolute",
                     // top: "0",
                     // left: "0",
-                    width: "40%",
+                    width: "50%",
                     height: "100%",
                     // zIndex: "-1",
                     // backgroundColor: "#111111",

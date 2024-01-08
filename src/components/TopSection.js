@@ -4,6 +4,9 @@ import Spline from '@splinetool/react-spline';
 // import video from "../assets/Video.mp4";
 
 export default function TopSection() {
+
+  
+
   return (
     <>
       <div
@@ -40,7 +43,7 @@ export default function TopSection() {
             justifyContent: "center",
           }}
         >
-          <Spline id="bg-animation" scene="https://prod.spline.design/aAFMY0mBK6-W4dg6/scene.splinecode" />
+          <Spline id="bg-animation" scene="https://prod.spline.design/BCL9IZtcUD4YJC5n/scene.splinecode" />
         </div>
         <div className="topContainerText">
           <div role="heading" aria-level="1" className="h1Container">
