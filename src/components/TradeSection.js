@@ -171,7 +171,7 @@ const TradeSection = () => {
                     // position: "absolute",
                     // top: "0",
                     // left: "0",
-                    width: "50%",
+                    width: "60%",
                     height: "100%",
                     // zIndex: "-1",
                     // backgroundColor: "#111111",
