@@ -191,7 +191,7 @@ const App = () => {
         <div class="left-half">
           <img
             className="credimg"
-            src="/Media/newsavingsimage.png"
+            src="/Media/new_savings.png"
             alt="image"
           ></img>
         </div>

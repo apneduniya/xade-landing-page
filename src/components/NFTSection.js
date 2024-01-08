@@ -31,13 +31,13 @@ const App = () => {
         style={{ paddingTop: "120px" }}
       >
         <img src="/Media/exploreBGleft.png" className="exploreBg1" />
-        <div>
+        {/* <div>
           <img
             className="ellipseExplore nftParent"
             src="/Media/Ellipse.png"
             alt="image"
           />
-        </div>
+        </div> */}
         <img src="/Media/exlporeBGright.png" className="exploreBg2" />
         <img
           className={`image ${isExpanded ? "expanded" : ""}`}
