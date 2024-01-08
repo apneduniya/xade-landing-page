@@ -81,18 +81,19 @@ const TradeSection = () => {
                                     fontFamily: "Montreal",
                                     fontWeight: "500",
                                     textAlign: "left",
+                                    color: "red !important",
                                 }}
                             >
                                 The
                                 <span
+                                    className="headingTopHighlightedText"
                                     style={{
                                         fontFamily: "PPEditorialNew-Italic",
                                         // fontStyle: "italic",
                                         fontWeight: "lighter",
                                         marginLeft: "0.5rem",
-                                        color: "linear-gradient(102deg, #EDB9FF 10.39 %, #9DC4FF 72 %)",
+                                        // color: "linear-gradient(102deg, #EDB9FF 10.39 %, #9DC4FF 72 %)",
                                         marginRight: "1rem",
-                                        // backgroundClip: "text",
                                     }}
                                 >
                                 {" "}
@@ -118,9 +119,10 @@ const TradeSection = () => {
                                 fontFamily: "Montreal",
                                 fontWeight: "normal",
                                 textAlign: "left",
+                                color: "#DADADA",
                             }}
                         >
-                            Trade anything in the world with spot and margin trading with <br />
+                            Trade anything in the world with spot and margin trading with
                             deep liquidity, advanced analytics, no-code algo trading and much more
                         </span>
                     </div>
