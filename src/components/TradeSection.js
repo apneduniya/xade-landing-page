@@ -12,7 +12,7 @@ const TradeSection = () => {
                     // marginTop: "15vh",
                     // marginBottom: "10vh",
                     position: 'relative',
-                    padding: "0 5rem",
+                    paddingLeft: "5rem",
                     width: "100%",
                     height: "100vh",
                     display: "flex",
