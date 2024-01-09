@@ -73,7 +73,7 @@ const App = () => {
             window.open("https://explorers.xade.finance/", "_blank");
           }}
         >
-          Learn More
+          Buy Now
         </button>
       </div>
       <br />

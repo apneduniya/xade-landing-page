@@ -400,6 +400,10 @@ section#container4 .right-half .line2 {
     margin-bottom: 0%;
   }
 
+  .topContainer {
+    padding: 0 !important;
+  }
+
   .subTextH1 {
     font-size: 1rem;
     margin-top: 7%;
@@ -625,10 +629,46 @@ section#container4 .right-half .line2 {
       linear-gradient(113deg, #8c46ff -2.72%, #b080ff 111.29%));
 }
 
+.hero_iphone_img {
+  display: none;
+}
+
+@media screen and (max-width: 1500px) {
+  .topContainer {
+    display: flex;
+    flex-direction: column !important;
+    margin-top: 20vh;
+    padding: 0 40px !important;
+    align-items: center;
+  }
+
+  .headingTop {
+    font-size: 4rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
-  h1 {
-    font-size: 10px;
+  h1, .headingTop {
+    font-size: 3rem;
     line-height: 50px;
+  }
+
+  .headingTop {
+    padding: 0 !important;
+  }
+
+  .tradeIphone3DModelContainer {
+    display: none !important;
+  }
+
+  .hero_iphone_img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  #bg-animation {
+    display: none;
   }
 }
 

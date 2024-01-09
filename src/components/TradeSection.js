@@ -77,7 +77,6 @@ const TradeSection = () => {
                                 className="headingTop"
                                 style={{
                                     // textAlign: "center",
-                                    fontSize: "5rem",
                                     fontFamily: "Montreal",
                                     fontWeight: "500",
                                     textAlign: "left",
@@ -96,39 +95,39 @@ const TradeSection = () => {
                                         marginRight: "1rem",
                                     }}
                                 >
-                                {" "}
-                                ultimate
-                            </span>
-                            <br />trading experience
-                            <br />powered by DeFi.
-                        </h1>
-                    </div>
+                                    {" "}
+                                    ultimate
+                                </span>
+                                <br />trading experience
+                                <br />powered by DeFi.
+                            </h1>
+                        </div>
 
-                    <div
-                        style={{
-                            color: "#fff",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                        }}
-                    >
-                        <span
-                            className="subTextH1"
+                        <div
                             style={{
-                                fontSize: "1.25rem",
-                                fontFamily: "Montreal",
-                                fontWeight: "normal",
-                                textAlign: "left",
-                                color: "#DADADA",
+                                color: "#fff",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
                             }}
                         >
-                            Trade anything in the world with spot and margin trading with
-                            deep liquidity, advanced analytics, no-code algo trading and much more
-                        </span>
+                            <span
+                                className="subTextH1"
+                                style={{
+                                    fontSize: "1.25rem",
+                                    fontFamily: "Montreal",
+                                    fontWeight: "normal",
+                                    textAlign: "left",
+                                    color: "#DADADA",
+                                }}
+                            >
+                                Trade anything in the world with spot and margin trading with
+                                deep liquidity, advanced analytics, no-code algo trading and much more
+                            </span>
+                        </div>
+                        <br />
                     </div>
-                    <br />
-                </div>
-                {/* <div
+                    {/* <div
                         className="GetStartedDiv"
                         style={{
                             display: "flex",
@@ -167,25 +166,31 @@ const TradeSection = () => {
                             />
                         </button>
                     </div> */}
-            </div>
-            <div
-                style={{
-                    // position: "absolute",
-                    // top: "0",
-                    // left: "0",
-                    width: "60%",
-                    height: "100%",
-                    // zIndex: "-1",
-                    // backgroundColor: "#111111",
-                    // opacity: "0.5",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                }}
-            >
-                <Spline id="bg-animation" scene="https://prod.spline.design/aAFMY0mBK6-W4dg6/scene.splinecode" />
-            </div>
-        </div >
+                </div>
+                <div
+                    className="tradeIphone3DModelContainer"
+                    style={{
+                        // position: "absolute",
+                        // top: "0",
+                        // left: "0",
+                        width: "60%",
+                        height: "100%",
+                        // zIndex: "-1",
+                        // backgroundColor: "#111111",
+                        // opacity: "0.5",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                    }}
+                >
+                    <Spline id="bg-animation" scene="https://prod.spline.design/aAFMY0mBK6-W4dg6/scene.splinecode" />
+                </div>
+                <img
+                    className="hero_iphone_img"
+                    src="/Media/hero_section_iphone.png"
+                    alt="image"
+                ></img>
+            </div >
             <br />
         </>
     )

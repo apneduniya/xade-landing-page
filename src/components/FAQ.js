@@ -80,7 +80,7 @@ export default function FAQ() {
         <h2 style={{ fontSize: "43.2px" }}> Join the revolution </h2>
       </div>
       <br />
-      <div className="topText" style={{ color: "#c397ff", fontsize: "0.1rem" }}>
+      <div className="topText" style={{ color: "#DADADA", fontsize: "0.1rem" }}>
         <span>
           {" "}
           It's time to unleash a new era of finance with Xade where we provide
