@@ -10,7 +10,7 @@ const TradeSection = () => {
                 className="topContainer"
                 style={{
                     // marginTop: "15vh",
-                    marginBottom: "10vh",
+                    // marginBottom: "10vh",
                     position: 'relative',
                     paddingLeft: "5rem",
                     width: "100%",
