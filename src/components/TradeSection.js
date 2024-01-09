@@ -14,7 +14,7 @@ const TradeSection = () => {
                     position: 'relative',
                     paddingLeft: "5rem",
                     width: "100%",
-                    minHeight: "100vh",
+                    // Height: "100vh",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "space-between",

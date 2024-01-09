@@ -374,6 +374,10 @@ section#container4 .right-half .line2 {
   height: 100%;
 }
 
+.topContainer {
+  height: 100vh;
+}
+
 .topContainerText {
   max-width: 45rem;
   position: relative;
@@ -640,7 +644,8 @@ section#container4 .right-half .line2 {
     margin-top: 20vh;
     padding: 0 40px !important;
     align-items: center;
-    margin-bottom: 10vh,
+    margin-bottom: 10vh;
+    height: auto;
   }
 
   .headingTop {
