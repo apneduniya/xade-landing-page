@@ -70,7 +70,7 @@ const App = () => {
           onClick={(e) => {
             console.log("button click");
             e.preventDefault();
-            window.open("https://explorers.xade.finance/", "_blank");
+            window.open("https://app.komet.me/nfts/Xade_Explorers/346", "_blank");
           }}
         >
           Buy Now

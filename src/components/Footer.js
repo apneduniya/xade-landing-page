@@ -9,19 +9,19 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-sm-5 mr-auto">
-              <div id="footerxade"style = {{textAlign:'left',fontFamily:'Lemon Milk',fontSize:'2.3rem'}}>
+              <div id="footerxade" style={{ textAlign: 'left', fontFamily: 'Lemon Milk', fontSize: '2.3rem' }}>
                 XADE
               </div>
               <br></br>
-              <p className="footerx"style = {{textAlign:'center'}}> 
-              <p className="footerx"style = {{textAlign:'left',fontFamily:'Regular',color:'#808080'}}>Xade is compeletely non-custodial and never takes control over the user's funds while all the codebases and transactions are publicly available</p>
-              <br></br>
-              <p className="footerx"style = {{textAlign:'left',fontFamily:'Regular',lineHeight:'0.4rem'}}> <p style={{textAlign:'left',fontFamily:'SemiBold',fontSize:'1.2 rem'}}>CONTACT US</p>support@xade.finance</p>
-              <p className="footerx"style = {{textAlign:'left',fontFamily:'Regular',lineHeight:'0.4rem',color:'#808080'}}>Unit No. 810, Gold Crest Executive,</p>
-              <p className="footerx"style = {{textAlign:'left',fontFamily:'Regular',lineHeight:'0.4rem',color:'#808080',marginBottom:'10%'}}>C2A Jumeriah Lake Towers, Dubai,UAE</p>
+              <p className="footerx" style={{ textAlign: 'center' }}>
+                <p className="footerx" style={{ textAlign: 'left', fontFamily: 'Regular', color: '#808080' }}>Xade is compeletely non-custodial and never takes control over the user's funds while all the codebases and transactions are publicly available</p>
+                <br></br>
+                <p className="footerx" style={{ textAlign: 'left', fontFamily: 'Regular', lineHeight: '0.4rem' }}> <p style={{ textAlign: 'left', fontFamily: 'SemiBold', fontSize: '1.2 rem' }}>CONTACT US</p>support@xade.finance</p>
+                <p className="footerx" style={{ textAlign: 'left', fontFamily: 'Regular', lineHeight: '0.4rem', color: '#808080' }}>Unit No. 810, Gold Crest Executive,</p>
+                <p className="footerx" style={{ textAlign: 'left', fontFamily: 'Regular', lineHeight: '0.4rem', color: '#808080', marginBottom: '10%' }}>C2A Jumeriah Lake Towers, Dubai,UAE</p>
 
               </p>
-              
+
             </div>
             <br></br>
             <br></br>
@@ -29,13 +29,13 @@ export default function Footer() {
             <div className="col-sm-2">
               <h5>Resources</h5>
               <ul className="list-unstyled">
-                                <li>
+                <li>
                   <a
                     href="https://docs.xade.finance"
                     target="_blank"
                     rel="noreferrer"
                   >
-                 Docs
+                    Docs
                   </a>
                 </li>
                 <li>
@@ -53,7 +53,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noreferrer"
                   >
-   Medium
+                    Medium
                   </a>
                 </li>
                 <li>
@@ -72,7 +72,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noreferrer"
                   >
-Privacy Policy
+                    Privacy Policy
                   </a>
                 </li>
               </ul>
@@ -104,7 +104,7 @@ Privacy Policy
                     target="_blank"
                     rel="noreferrer"
                   >
-                Telegram
+                    Telegram
                   </a>
                 </li>
                 <li>
@@ -113,7 +113,7 @@ Privacy Policy
                     target="_blank"
                     rel="noreferrer"
                   >
-                LinkedIn
+                    LinkedIn
                   </a>
                 </li>
                 <li>
@@ -136,7 +136,7 @@ Privacy Policy
                     target="_blank"
                     rel="noreferrer"
                   >
-         What is Xade
+                    What is Xade
                   </a>
                 </li>
                 <li>
@@ -145,12 +145,12 @@ Privacy Policy
                     target="_blank"
                     rel="noreferrer"
                   >
-                RemmiteX
+                    RemmiteX
                   </a>
                 </li>
                 <li>
                   <a href="https://xadefinance.medium.com/sabex-lets-beat-inflation-8d8fe9a5e2a1" target="_blank" rel="noreferrer">
-             SabeX
+                    SabeX
                   </a>
                 </li>
                 <li>
@@ -159,7 +159,7 @@ Privacy Policy
                     target="_blank"
                     rel="noreferrer"
                   >
-                 DeriveX
+                    DeriveX
                   </a>
                 </li>
                 <li>
@@ -168,7 +168,7 @@ Privacy Policy
                     target="_blank"
                     rel="noreferrer"
                   >
-             Affiliate Program
+                    Affiliate Program
                   </a>
                 </li>
               </ul>
@@ -176,8 +176,12 @@ Privacy Policy
           </div>
           <div className="row mt-5">
             <div className="col-12 text-muted text-center small-xl">
-              © {new Date().getFullYear()} Neon Worldwide DMCC - All Rights
+              © {new Date().getFullYear()} Xade Technologies FZCO - All Rights
               Reserved
+              <br />
+              <br />
+              Xade is not an authorised or licensed bank in any jurisdictions nor does it have any licenses to provide financial services in any jurisdictions.
+              <br />We are a non custodial platform and we are not liable for any actions of our users or any losses incurred on our platform
             </div>
           </div>
         </div>
